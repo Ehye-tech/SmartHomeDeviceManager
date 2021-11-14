@@ -24,4 +24,8 @@ public class Home {
         this.name = request.getName();
     }
 
+    public Home(long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }

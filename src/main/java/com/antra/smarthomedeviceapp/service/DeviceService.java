@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 public class DeviceService {
 
     public boolean doesDevicesContainDeviceName(List<Device> devices, String deviceName){
+
         for(Device d : devices){
             if(d.getName().equals(deviceName)){
                 return true;

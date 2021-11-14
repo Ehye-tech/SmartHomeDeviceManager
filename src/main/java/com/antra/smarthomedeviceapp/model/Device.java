@@ -29,4 +29,13 @@ public class Device {
     public Device() {
 
     }
+
+    public Device(long id, String name, Home home) {
+        this(name, home);
+        this.id = id;
+    }
+
+    public String getName() {
+        return  this.name;
+    }
 }
